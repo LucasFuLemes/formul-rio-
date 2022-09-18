@@ -29,7 +29,7 @@
 <head>
     <meta charset=“utf-8”>
     <meta name=“viewport” content="width=device-width", initial-scale="1.0">
-    <title>Forms HTML5</title>
+    <p>num sei</p>
     <style>
       input[type="text"] {
         vertical-align: bottom;
@@ -41,9 +41,9 @@
     <fieldset>
       <legend> Dados Pessoais </legend>
       <ol>
-        <li><label>Emial <input type="email" placeholder="name e sobrenome"></label></li>
-        <li><label>Lucas <input type="text" placeholder="fodase"></label></li>
-        <li><label>Lemes <input type="text"placeholder="Nome e sobrenome"></label></li>
+        <li><label>Emial <input type="email" placeholder="..........@gmail.com"></label></li>
+        <li><label>Nome e Sobrenome <input type="text" placeholder="Nome"></label></li>
+        <li><label>CPF <input type="text"placeholder="000.000.000-00"></label></li>
       </ol>
     </fieldset>
   </form>
