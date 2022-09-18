@@ -5,14 +5,14 @@
 <h3>Formulario<h3>
 
 <form action=" /action_page.php">
-  <label for="fname"> /Seu nome:</label><br>
-  <input type="text" id="fname" name="fname" value="Lucas"><br>
-  <label for="lname">Seu sobrenome:</label><br>
-  <input type="text" id="lname" name="lname" value="Lemes"><br><br>
+  <label for="fname">Nome:</label><br>
+  <input type="text" id="fname" Primeiro nome="fname" value="Nome"><br>
+  <label for="lname">Sobrenome:</label><br>
+  <input type="text" id="lname" Último nome="lname" value="Sobrenome"><br><br>
   <input type="confirme" value="Confirme">
 </form>
 
-<p>Escreva em todas os espaços em cima</p>
+<p>Preencha os espaços abaixo</p>
 
 </body>
 </html>
@@ -23,7 +23,7 @@
 <form method='Post' action='recebe-dados.php'>
   <label for="nome">Nome</label>
   <input type='text' id='nome' name='nome' required>
-  <label> form="</label>
+  <label form="nome"</label>
 
 <html>
 <head>
