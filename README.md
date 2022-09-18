@@ -30,24 +30,25 @@
       }
     </style>
 </head>
+
 <body>
 <html>
   <form>
     <fieldset>
       <legend> Dados Pessoais </legend>
       <ol>
-        <li><label>Emial <input type="email" placeholder="..........@gmail.com"></label></li>
-        <li><label>CPF <input type="text" placeholder="000.000.000-00"></label></li>
-        <li><label>Documento <input type="text"placeholder="0.000.000"></label></li>
-	<li><label>Nome Inteiro <input type="text" placeholder="Nome"></label></li>
+        <li><label>Emial: <input type="email" placeholder="..........@gmail.com"></label></li>
+        <li><label>CPF: <input type="text" placeholder="000.000.000-00"></label></li>
+        <li><label>Documento: <input type="text"placeholder="0.000.000"></label></li>
+	<li><label>Nome Inteiro: <input type="text" placeholder="Nome"></label></li>
       </ol>
     </fieldset>
   </form>
   Local de entrega
   <ol>
-    <li><p> Estado <testarea cols="17" rows="14" placeholder="Insira a sua residência"></testarea></p></li>
-    <li><p> Cidade <testarea cols="17" rows="14" placeholder="Insira a sua residência"></testarea></p></li>
-    <li><p> Residência <testarea cols="17" rows="14" placeholder="Insira a sua residência"></testarea></p></li>	  
+    <li><p> Estado: <testarea cols="17" rows="14" placeholder="Insira o seu estado"></testarea></p></li>
+    <li><p> Cidade: <testarea cols="17" rows="14" placeholder="Insira a sua cidade"></testarea></p></li>
+    <li><p> Residência: <testarea cols="17" rows="14" placeholder="Insira a sua residência"></testarea></p></li>	  
   </ol>
 
 
