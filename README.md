@@ -5,14 +5,15 @@
 <h3>Formulario<h3>
 
 <form action=" /action_page.php">
-	<label for="fname"> /Seu nome:</label><br>
-	<input type="text" id="fname" name="fname" value="Lucas"><br>
-	<label for="lname">Seu sobrenome:</label><br>
-	<input type="text" id="lname" name="lname" value="Lemes"><br><br>
-	<input type="confirme" value="Confirme">
+	<label for="fname">Nome:</label><br>
+	<input type="text" id="fname" name="fname" placeholder="Nome"><br>
+	<label for="lname">Sobrenome:</label><br>
+	<input type="text" id="lname" name="lname" placeholder="Sobrenome"><br>
+  <label for="lname">Telefone:</label><br>
+	<input type="confirme" placeholder="(00) 0000-0000">
 </form>
 
-<p>Escreva em todas os espaços em cima</p>
+<p>prencha nos espaços abaixo</p>
 
 </body>
 </html>
@@ -23,7 +24,7 @@
 <form method='Post' action='recebe-dados.php'>
 	<label for="nome">Nome</label>
 	<input type='text' id='nome' name='nome' required>
-	<label> form="</label>
+	<label form="nome"</label>
 
 <html>
 <head>
@@ -41,9 +42,9 @@
 		<fieldset>
 			<legend> Dados Pessoais </legend>
 			<ol>
-				<li><label>Emial <input type="email" placeholder="name e sobrenome"></label></li>
-				<li><label>Lucas <input type="text" placeholder="eu"></label></li>
-				<li><label>Lemes <input type="text"placeholder="Nome e sobrenome"></label></li>
+				<li><label>Emial <input type="email" placeholder="..........@gmail.com"></label></li>
+				<li><label>Nome Inteiro<input type="text" placeholder="Nome"></label></li>
+				<li><label>CPF<input type="text"placeholder="000.000.000-00"></label></li>
 			</ol>
 		</fieldset>
 	</form>
