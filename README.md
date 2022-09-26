@@ -1,56 +1,22 @@
-# formul-rio-
+# formulário 1
 <html>
 <body>
-
-<h3>Formulario<h3>
-
-<form action=" /action_page.php">
-	<label for="fname">Nome:</label><br>
-	<input type="text" id="fname" name="fname" placeholder="Nome"><br>
-	<label for="lname">Sobrenome:</label><br>
-	<input type="text" id="lname" name="lname" placeholder="Sobrenome"><br>
-  <label for="lname">Telefone:</label><br>
-	<input type="confirme" placeholder="(00) 0000-0000">
+ <form action="/pagina-processa-dados-do-form" method="post">
+    <div>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="usuario_nome" />
+    </div>
+    <div>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="usuario_email" />
+    </div>
+    <div>
+        <label for="msg">Mensagem:</label>
+        <textarea id="msg" name="usuario_msg"></textarea>
+    </div>
+    <div class="button">
+        <button type="submit">Enviar sua mensagem</button>
+    </div>
 </form>
-
-<p>prencha nos espaços abaixo</p>
-
-</body>
+  </body>
 </html>
-
-</body>
-</html>
-
-<form method='Post' action='recebe-dados.php'>
-	<label for="nome">Nome</label>
-	<input type='text' id='nome' name='nome' required>
-	<label form="nome"</label>
-
-<html>
-<head>
-    <meta charset=“utf-8”>
-    <meta name=“viewport” content="width=device-width", initial-scale="1.0">
-    <style>
-    	input[type="text"] {
-    		vertical-align: bottom;
-    	}
-    </style>
-</head>
-<body>
-	<form>
-		<fieldset>
-			<legend> Dados Pessoais </legend>
-			<ol>
-				<li><label>Emial <input type="email" placeholder="..........@gmail.com"></label></li>
-				<li><label>Nome Inteiro<input type="text" placeholder="Nome"></label></li>
-				<li><label>CPF<input type="text"placeholder="000.000.000-00"></label></li>
-			</ol>
-		</fieldset>
-	</form>
-	Local de entrega
-	<ol>
-		<li><p> Residência <testarea cols="17" rows="14" placeholder="Insira a sua residência"></testarea></p></li>
-	</ol>
-</body>
-</html>
-	
